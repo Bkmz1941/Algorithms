@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Function;
 
 public class TaskA {
     public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class TaskA {
             throw new RuntimeException(e);
         }
 
-        sort(intervals).forEach(el -> {
+        ascSortByValue(intervals).forEach(el -> {
             if (el.getKey() > max.get()) {
                 result.getAndIncrement();
                 max.set(el.getValue());
@@ -71,7 +70,7 @@ public class TaskA {
         return intervals;
     }
 
-    private static List<Map.Entry<Integer, Integer>> sort(List<Map.Entry<Integer, Integer>> listIntervals) {
+    private static List<Map.Entry<Integer, Integer>> ascSortByValue(List<Map.Entry<Integer, Integer>> listIntervals) {
         for (int i = 1; i < listIntervals.size(); i++) {
             Map.Entry<Integer, Integer> temp = listIntervals.get(i);
             int j = i - 1;
