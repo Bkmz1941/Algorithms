@@ -1,4 +1,4 @@
-package theme_3_1;
+package yandex_academy.theme_3_1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

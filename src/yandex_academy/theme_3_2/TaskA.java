@@ -1,4 +1,4 @@
-package theme_3_2;
+package yandex_academy.theme_3_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
