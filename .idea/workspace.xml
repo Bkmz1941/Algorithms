@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2d9a3c-0b9f-4276-9b2b-ea7e20bc0451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/deepest_leaves_sum/DeepestLeavesSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/helpers/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/helpers/SimpleTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/helpers/Trees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/helpers/traversal/InOrderDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/helpers/traversal/PostOrderDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/helpers/traversal/PreOrderDFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/deepest_leaves_sum/DeepestLeavesSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/deepest_leaves_sum/DeepestLeavesSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
