@@ -9,4 +9,6 @@ abstract public class AbstractSort {
         }
         System.out.print(sb + System.lineSeparator());
     }
+
+//    abstract public void sort(int[] list);
 }
