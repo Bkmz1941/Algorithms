@@ -2,19 +2,19 @@ package sort;
 
 /**
  * Records
- * Merge sort: record: 07:16
- * Insert sort: record: 02:50
+ * Merge sort: record: 04:34
+ * Insert sort: record: 01:34
  */
 public class Training {
     public static void main(String[] args) {
         int[] arr = new int[]{6, 1, 7, 4, 2, 9, 8, 5, 3};
-        InsertSort sorting = new InsertSort();
+        MergeSort sorting = new MergeSort();
         sorting.sort(arr);
         sorting.print(arr);
     }
 
     private static class InsertSort extends AbstractSort {
-        private void sort(int[] list) {
+        public void sort(int[] list) {
             for (int i = 0; i < list.length - 1; i++) {
                 int j = i + 1;
                 int temp = list[j];
@@ -28,11 +28,11 @@ public class Training {
     }
 
     private static class MergeSort extends AbstractSort {
-        private void sort(int[] list) {
+        public void sort(int[] list) {
             mergeSort(list, 0, list.length - 1);
         }
 
-        private void mergeSort(int[] list, int startIdx, int endIdx) {
+        public void mergeSort(int[] list, int startIdx, int endIdx) {
             if (startIdx >= endIdx) return;
 
             int midIdx = (startIdx + endIdx) / 2;
@@ -41,9 +41,10 @@ public class Training {
             mergeSort(list, midIdx + 1, endIdx);
 
             merge(list, startIdx, midIdx, endIdx);
+
         }
 
-        private void merge(int[] list, int startIdx, int midIdx, int endIdx) {
+        public void merge(int[] list, int startIdx, int midIdx, int endIdx) {
             int leftArrSize = midIdx - startIdx + 1;
             int rightArrSize = endIdx - midIdx;
 
@@ -53,13 +54,11 @@ public class Training {
             for (int i = 0; i < leftArrSize; i++) {
                 leftArr[i] = list[i + startIdx];
             }
-
             for (int i = 0; i < rightArrSize; i++) {
                 rightArr[i] = list[i + midIdx + 1];
             }
 
             int i = 0, j = 0, k = startIdx;
-
             while (i < leftArrSize && j < rightArrSize) {
                 if (leftArr[i] < rightArr[j]) {
                     list[k] = leftArr[i];
@@ -70,14 +69,12 @@ public class Training {
                 }
                 k++;
             }
-
             while (j < rightArrSize) {
                 list[k] = rightArr[j];
                 j++;
                 k++;
             }
-
-            while (i < leftArrSize) {
+            while (i < leftArrSize ) {
                 list[k] = leftArr[i];
                 i++;
                 k++;

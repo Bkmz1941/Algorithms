@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2d9a3c-0b9f-4276-9b2b-ea7e20bc0451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/Training.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/AbstractSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/AbstractSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/insert/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/insert/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Training.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +36,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ABS.executor": "Run",
-    "Application.DeepestLeavesSum.executor": "Run",
-    "Application.Game.executor": "Debug",
-    "Application.InsertSort.executor": "Debug",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.Task2.executor": "Debug",
-    "Application.Task3.executor": "Debug",
-    "Application.Training.executor": "Run",
-    "Application.Trees.executor": "Run",
-    "Application.trees.count_good_nodes.Main.executor": "Debug",
-    "Application.zigzagLevelOrder.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "11",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ilyatitov/Learning/Java/Algorithms",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ABS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeepestLeavesSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Game.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InsertSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Task3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Training.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Trees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.trees.count_good_nodes.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.zigzagLevelOrder.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ilyatitov/Learning/Java/Algorithms&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/graphs/task3" />
